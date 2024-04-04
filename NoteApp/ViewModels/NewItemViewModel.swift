@@ -9,7 +9,7 @@ import Foundation
 import FirebaseAuth
 import FirebaseFirestore
 
-class NewItemViewModel: ObservableObject {
+class EditItemViewModel: ObservableObject {
     @Published var title = ""
     @Published var content = ""
     @Published var showAlert = false
