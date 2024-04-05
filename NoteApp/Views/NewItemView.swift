@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct EditItemView: View {
-    @StateObject var viewModel = EditItemViewModel()
+struct NewItemView: View {
+    @StateObject var viewModel = NewItemViewModel()
     @Binding var newItemPresented: Bool
     
     var body: some View {
@@ -50,6 +50,6 @@ struct EditItemView: View {
 
 struct NewItemView_Previews: PreviewProvider {
     static var previews: some View {
-        EditItemView(newItemPresented: .constant(true))
+        NewItemView(newItemPresented: .constant(true))
     }
 }

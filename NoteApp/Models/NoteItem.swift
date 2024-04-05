@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct NoteItem: Codable, Identifiable {
+    let id: String
+    let title: String
+    let content: String
+    let createDate: TimeInterval
+}
